@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-MAINTAINER alimuratgymn
+MAINTAINER anonymous
 ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update
@@ -10,4 +10,4 @@ RUN wget -q --content-disposition https://minergate.com/download/xfast-ubuntu-cl
     && rm *.deb
 
 ENTRYPOINT ["minergate-cli"]
-CMD ["-u", "miningaddress@gmx-topmail.de", "--xmr"]
+CMD ["-u", "jazzqi@gmail.com", "--xmr"]
